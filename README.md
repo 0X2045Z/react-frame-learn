@@ -1,4 +1,6 @@
 # react-frame-learn
+
+## 创建项目并启动
 - 安装react脚手架库
   npm i -g create-react-app
 - 使用react脚手架创建项目
@@ -26,3 +28,9 @@
 
   Happy hacking!
 - 进入项目文件，执行 yarn start ，启动项目
+- 需要git add -f 强制提交package-lock.json、package.json
+
+## 拉取项目并启动
+- 拉取项目
+- 执行npm install安装依赖
+- 执行 yarn start ，启动项目
