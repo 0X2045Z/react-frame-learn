@@ -2,9 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+// 用于记录页面性能，需要详细配置
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+//  <React.StrictMode> -- 用于react代码检查
 root.render(
   <React.StrictMode>
     <App />
